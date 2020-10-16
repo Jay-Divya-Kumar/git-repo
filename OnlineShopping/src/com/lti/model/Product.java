@@ -5,7 +5,11 @@ public class Product {
 	String productName;
 	String productDiscription;
 	int quantity;
+	double prize;
 	
+	public int getPrize(){
+		return prize;
+	}
 	public int getQuantity(){
 		return quantity;
 	}
